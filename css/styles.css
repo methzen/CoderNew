@@ -1,0 +1,112 @@
+@import "./normalize.css";
+:root{
+--primary-black: #272727;
+--primary-light-black: #383838;
+--light-grey: #737373;
+--primary-red: #e21e2d;
+--primary-red-hover: #a6000d;
+--primary-orange: #f66400;
+--primary-orange-hover: #9c3f00;
+--primary-blue: #1564cb;
+--primary-blue-hover: #004094;
+--dark-red: #ae060c;
+--dark-red-hover: #660206;
+--light-background-color-hover: #dee0e3;
+--light-green-background-color: #d3f9d8;
+--light-blue-background-color: #d3e3f9;
+--light-background-color: #ededed;
+--light-font-color: #858b93;
+--border-color: #495057;
+--body-max-width: 1000px;
+--font-color: #495057;
+--heading-color: #343a40;
+--red-bottom-border-color: #d69498;
+--red-bottom-border-color-hover: #d4444c;
+--code-background-color: #f1f4f8;
+--blockquote-background-color: #fff0f1;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/*  Typography */
+
+::selection{
+    background: var(--primary-blue);
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 2rem;
+    line-height: 1.45;
+    color: var(--font-color);
+  }
+
+h1,h2,h3 {
+    color: var(--heading-color);
+}
+
+h1 {
+    font-size: 6.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+/*  Navigation */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    font-size: 1.5rem;
+    padding: 3rem 2.5rem 0;
+}
+
+.hn-courses-left-arrow{
+    transform: rotate(180deg);
+}
+
+.nav a {
+    color: var(--heading-color);
+}
+
+.nav a svg{
+    vertical-align: middle;
+}
+
+.nav a:hover,
+.nav a svg:hover {
+    color: var(--light-font-color);
+}

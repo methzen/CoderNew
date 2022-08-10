@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2180" height="568">
+  <defs>
+    <path id="a" d="M0 0h2180v568H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <path fill="#FFF" fill-opacity=".8" d="M1563.846 367.846l240-415.692-415.692-240-240 415.692z"/>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08" d="M1534.506 379.382l243-420.888-420.888-243-243 420.888z"/>
+      <path fill="#DADCDC" fill-opacity=".4" d="M445.5 525.446L788.447 182.5 445.5-160.447 102.553 182.5z"/>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08" d="M465 540.382L821.382 184 465-172.382 108.618 184z"/>
+      <path fill="#FFF" fill-opacity=".8" d="M1925 576.558L2179.558 322 1925 67.44 1670.44 322z"/>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08" d="M1898 576.558L2152.558 322 1898 67.44 1643.44 322z"/>
+      <path fill="#FFF" fill-opacity=".8" d="M661.952 390.833l273.881 58.215 58.215-273.881-273.881-58.215z"/>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08" d="M671.952 404.833l273.881 58.215 58.215-273.881-273.881-58.215z"/>
+      <path fill="#DADCDC" fill-opacity=".4" d="M1080.326 257.44l263.114-95.766-95.766-263.113L984.56-5.674z"/>
+      <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08" d="M1070.326 275.44l263.114-95.766-95.766-263.114L974.56 12.326z"/>
+    </g>
+  </g>
+</svg>
