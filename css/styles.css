@@ -55,10 +55,11 @@ body {
 
 h1,h2,h3 {
     color: var(--heading-color);
+    line-height: 1.1;
 }
 
 h1 {
-    font-size: 6.4rem;
+    font-size: 6rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -71,7 +72,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2.6rem;
     letter-spacing: -0.4px;
     font-weight: 700;
@@ -80,6 +81,24 @@ h3 {
 a {
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    body {
+      font-size: 2.2rem;
+    }
+    h1 {
+      font-size: 7rem;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 2.8rem;
+    }
+  }
+
+
+
 /*  Navigation */
 .container {
     max-width: 1200px;
@@ -99,6 +118,11 @@ a {
     transform: rotate(180deg);
 }
 
+.hn-courses-left-arrow,
+.hn-courses-right-arrow {
+    max-width: 16px;
+}
+
 .nav a {
     color: var(--heading-color);
 }
@@ -108,9 +132,21 @@ a {
 }
 
 .nav a:hover,
-.nav a svg:hover {
+.nav a:hover .hn-courses-left-arrow,
+.nav a:hover .hn-courses-right-arrow {
     color: var(--light-font-color);
 }
+
+.nav a:hover .hn-courses-left-arrow {
+    transform: translateX(-1px);
+
+}
+
+.nav a:hover .hn-courses-right-arrow{
+    transform: translateX(1px);
+
+}
+
 
 /* button styles */
 .btn {
@@ -151,4 +187,33 @@ a {
     color:rgba(0, 0, 0, 0.65);
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
+}
+
+.hero {
+    text-align: center;
+    background-color: #f9f9f9;
+    background-image: url(/images/top-mono.svg);
+    background-position: top,top;
+    background-repeat: no-repeat, repeat-x;
+}
+
+.hero__content {
+padding: 10rem 2.5rem;
+}
+
+.hero__logo {
+    max-height: 73px;
+    display: flex;
+}
+
+.hero__image {
+    width: 100%;
+}
+
+.hero__heading {
+    padding: 3rem 0rem;
+}
+
+.hero .btn {
+    margin: 0 10px;
 }
