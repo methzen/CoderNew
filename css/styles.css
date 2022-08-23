@@ -367,3 +367,60 @@ padding: 10rem 2.5rem;
 }
 
 }
+
+/* LIST */ 
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list .list-item {
+    background-image: url(/images/circle-checkmark.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0;
+    padding-left: 28px;
+}
+
+.list dl dt {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -.36px;
+    overflow-wrap: break-word;
+    color: var(--heading-color);
+}
+.list  dl dd {
+    margin: 4px 0;
+    line-height: 1.375;
+    color: var(--font-color);
+}
+
+/* Cards */
+
+.card {
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0.625rem 3.45rem O hsl(0deg, 0%, 40%);
+}
+
+.card-header{
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 2.8rem 9rem 2.8rem 3.2rem;
+}
+
+.card-title-image {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    right: 28px;
+    margin-top: -28px;
+}
+
+.card-body{
+    padding: 2.8rem 9rem 2.8rem 3.2rem;
+}
