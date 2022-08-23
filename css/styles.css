@@ -84,7 +84,7 @@ a {
 
 @media screen and (min-width: 1024px) {
     body {
-      font-size: 2.2rem;
+      font-size: 1.8rem;
     }
     h1 {
       font-size: 7rem;
@@ -93,7 +93,7 @@ a {
       font-size: 4rem;
     }
     h3 {
-      font-size: 2.8rem;
+      font-size: 2rem;
     }
   }
 
@@ -102,6 +102,7 @@ a {
 /*  Navigation */
 .container {
     max-width: 1200px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -150,12 +151,12 @@ a {
 
 /* button styles */
 .btn {
-    width: 17.5rem;
-    padding: 2.2rem 0;
+    width: 10rem;
+    padding: 1.5rem 0;
     letter-spacing: 0.2px;
     line-height: 1.25;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -189,6 +190,17 @@ a {
     transform: translateY(-1px);
 }
 
+@media screen and (min-width: 1024px){
+    .btn {
+        width: 17.5rem;
+        padding: 2.2rem 0;
+        letter-spacing: 0.2px;
+        line-height: 1.25;
+        font-size: 2rem;
+    }
+    
+}
+
 .hero {
     text-align: center;
     background-color: #f9f9f9;
@@ -216,4 +228,142 @@ padding: 10rem 2.5rem;
 
 .hero .btn {
     margin: 0 10px;
+}
+
+/* Used TEch */
+
+.used-tech{
+    text-align: center;
+}
+
+.used-tech__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.react{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+}
+
+.nodejs{
+    display: flex;
+    width:  5rem;
+    height:  5rem;
+}
+
+.nextjs{
+    display: none;
+    width: 10rem;
+    height:  5rem;
+}
+
+.css3{
+    display: flex;
+    width:  5rem;
+    height: 5rem;
+}
+
+.mongodb{
+    display: flex;
+    width: 12rem;
+    height: 5rem;
+}
+
+.algolia{
+    display: none;
+    width:  5rem;
+    height:  5rem;
+}
+
+@media screen and (min-width: 1024px){
+    .react{
+        display: flex;
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .nodejs{
+        display: flex;
+        width:  7.5rem;
+        height:  7.5rem;
+    }
+    
+    .nextjs{
+        display: flex;
+        width: 12rem;
+        height:  7.5rem;
+    }
+    
+    .css3{
+        display: flex;
+        width:  7.5rem;
+        height:  7.5rem;
+    }
+    
+    .mongodb{
+        display: flex;
+        width: 14rem;
+        height:  7.5rem;
+    }
+    
+    .algolia{
+        display: flex;
+        width:  7.5rem;
+        height:  7.5rem;
+    }
+      
+}
+
+/* MEDIA */
+
+.media-image{
+    width: 64px;
+    height: 64px;
+}
+
+.media-content{
+    padding-top: 16px;
+}
+
+.media-content .title{
+    margin: 0;
+}
+
+.course-summary{
+    display: grid;
+    gap:2rem;
+}
+
+.course-summary__content{
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto 48px;
+}
+
+.demo-image{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem lightgray;
+}
+
+.course-topics{
+    margin-top: 8rem;
+    display: grid;
+    gap:2rem;
+}
+
+@media screen and (min-width: 1024px){
+  .course-topics{
+    grid-template-columns: repeat(3,1fr);
+} 
+
+.course-summary{
+    grid-template-columns: 1fr 2fr;
+}
+
 }
