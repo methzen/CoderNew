@@ -409,7 +409,7 @@ padding: 10rem 2.5rem;
 .card-header{
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 2.8rem 9rem 2.8rem 3.2rem;
+    padding: 2rem 9rem 2rem 2rem;
 }
 
 .card-title-image {
@@ -418,9 +418,24 @@ padding: 10rem 2.5rem;
     height: 52px;
     top: 50%;
     right: 28px;
-    margin-top: -28px;
+    margin-top: -2.8rem;
 }
 
 .card-body{
     padding: 2.8rem 9rem 2.8rem 3.2rem;
+}
+
+/* Panels */
+
+.panel{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .panel{
+    flex-direction: row;
+    }
+    
 }
